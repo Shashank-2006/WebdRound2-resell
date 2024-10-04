@@ -28,7 +28,7 @@ const Logo = () => {
           />
         </svg>
       </Link>
-      <h1 className="font-inter font-bold text-2xl ">Exclusive</h1>
+      <h1 className="font-inter font-bold text-2xl ">IIITA RESELL STORE</h1>
     </div>
   );
 };

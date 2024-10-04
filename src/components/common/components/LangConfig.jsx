@@ -1,4 +1,5 @@
 // LangConfig.jsx
+// LangConfig.jsx
 import { ManageAccounts, Reviews } from "@mui/icons-material";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
@@ -54,136 +55,159 @@ const resources = {
       new: "NEW",
       itemsArray: {
         0: {
+          id: 0,
           title: "Kids Electric Car",
           type: "Gaming",
           details:
-            "An exciting electric car for kids to drive around in style, providing hours of entertainment and fun.",
+            "An exciting electric car for kids to drive around in style, providing hours of entertainment and fun. Seller: Amit Sharma, Phone: +91 9876543210, Address: 12, Sector-34, Gurgaon, Haryana, India, Email: amit.sharma@gmail.com",
         },
         1: {
+          id: 1,
           title: "CANON EOS DSLR Camera",
           type: "Technology",
           details:
-            "Capture stunning photos and videos with this professional-grade Canon DSLR camera, perfect for photography enthusiasts.",
+            "Capture stunning photos and videos with this professional-grade Canon DSLR camera, perfect for photography enthusiasts. Seller: Rajesh Mehta, Phone: +91 8765432109, Address: 45, MG Road, Mumbai, Maharashtra, India, Email: rajesh.mehta@gmail.com",
         },
         2: {
+          id: 2,
           title: "Breed Dry Dog Food",
           type: "General",
           details:
-            "Nutritious dry dog food to keep your furry friend healthy and happy, made with high-quality ingredients.",
+            "Nutritious dry dog food to keep your furry friend healthy and happy, made with high-quality ingredients. Seller: Sandeep Verma, Phone: +91 7654321098, Address: 78, Civil Lines, Lucknow, Uttar Pradesh, India, Email: sandeep.verma@gmail.com",
         },
         3: {
+          id: 3,
           title: "ASUS FHD Gaming Laptop",
           type: "Technology",
           details:
-            "Experience high-performance gaming with this ASUS FHD gaming laptop, featuring advanced graphics and smooth gameplay.",
+            "Experience high-performance gaming with this ASUS FHD gaming laptop, featuring advanced graphics and smooth gameplay. Seller: Neha Kapoor, Phone: +91 6543210987, Address: 55, Park Street, Kolkata, West Bengal, India, Email: neha.kapoor@gmail.com",
         },
         4: {
+          id: 4,
           title: "Curology Product Set",
           type: "General",
           details:
-            "A complete skincare set by Curology to cleanse, moisturize, and protect your skin, leaving it soft and radiant.",
+            "A complete skincare set by Curology to cleanse, moisturize, and protect your skin, leaving it soft and radiant. Seller: Ravi Kumar, Phone: +91 5432109876, Address: 102, Main Bazar, Jaipur, Rajasthan, India, Email: ravi.kumar@gmail.com",
         },
         5: {
+          id: 5,
           title: "GP11 Shooter USB Gamepad",
           type: "Gaming",
           details:
-            "Enhance your gaming experience with the GP11 Shooter USB gamepad, featuring high-quality construction and precise controls.",
+            "Enhance your gaming experience with the GP11 Shooter USB gamepad, featuring high-quality construction and precise controls. Seller: Kiran Patel, Phone: +91 4321098765, Address: 23, Ring Road, Ahmedabad, Gujarat, India, Email: kiran.patel@gmail.com",
         },
         6: {
+          id: 6,
           title: "Quilted Satin Jacket",
           type: "Clothes",
           details:
-            "Stay stylish and warm with this quilted satin jacket, perfect for adding a trendy touch to your outfit.",
+            "Stay stylish and warm with this quilted satin jacket, perfect for adding a trendy touch to your outfit. Seller: Pooja Singh, Phone: +91 3210987654, Address: 9, Lajpat Nagar, New Delhi, India, Email: pooja.singh@gmail.com",
         },
         7: {
+          id: 7,
           title: "Small Bookshelf",
           type: "General",
           details:
-            "Organize your books and decorative items neatly with this small bookshelf, designed to fit in compact spaces.",
+            "Organize your books and decorative items neatly with this small bookshelf, designed to fit in compact spaces. Seller: Vikas Jain, Phone: +91 2109876543, Address: 16, Residency Road, Bangalore, Karnataka, India, Email: vikas.jain@gmail.com",
         },
         8: {
+          id: 8,
           title: "RGB Liquid CPU Cooler",
           type: "Technology",
           details:
-            "Keep your CPU cool and running smoothly with the RGB liquid CPU cooler, featuring a high-performance pump and customizable RGB lighting.",
+            "Keep your CPU cool and running smoothly with the RGB liquid CPU cooler, featuring a high-performance pump and customizable RGB lighting. Seller: Saurabh Gupta, Phone: +91 1098765432, Address: 32, Brigade Road, Chennai, Tamil Nadu, India, Email: saurabh.gupta@gmail.com",
         },
         9: {
+          id: 9,
           title: "Gucci Duffle Bag",
           type: "Clothes",
           details:
-            "Travel in style with the Gucci duffle bag, crafted from premium materials and designed for durability and luxury.",
+            "Travel in style with the Gucci duffle bag, crafted from premium materials and designed for durability and luxury. Seller: Sneha Rai, Phone: +91 0987654321, Address: 76, Colaba Causeway, Mumbai, Maharashtra, India, Email: sneha.rai@gmail.com",
         },
         10: {
+          id: 10,
           title: "The North Coat",
           type: "Clothes",
           details:
-            "Stay warm and fashionable with The North Coat, featuring a durable construction and timeless design.",
+            "Stay warm and fashionable with The North Coat, featuring a durable construction and timeless design. Seller: Aditya Mishra, Phone: +91 1987654321, Address: 89, Connaught Place, New Delhi, India, Email: aditya.mishra@gmail.com",
         },
         11: {
+          id: 11,
           title: "HAVIT HV-G92 Gamepad",
           type: "Gaming",
           details:
-            "Enjoy responsive and precise gaming controls with the HAVIT HV-G92 gamepad, designed for hours of gaming fun.",
+            "Enjoy responsive and precise gaming controls with the HAVIT HV-G92 gamepad, designed for hours of gaming fun. Seller: Rahul Chawla, Phone: +91 9988776655, Address: 12, Raja Park, Jaipur, Rajasthan, India, Email: rahul.chawla@gmail.com",
         },
         12: {
+          id: 12,
           title: "AK-900 Wired Keyboard",
           type: "Technology",
           details:
-            "Type with speed and accuracy using the AK-900 wired keyboard, featuring a durable construction and ergonomic design.",
+            "Type with speed and accuracy using the AK-900 wired keyboard, featuring a durable construction and ergonomic design. Seller: Priya Deshmukh, Phone: +91 8877665544, Address: 34, Shivaji Nagar, Pune, Maharashtra, India, Email: priya.deshmukh@gmail.com",
         },
         13: {
+          id: 13,
           title: "IPS LCD Gaming Monitor",
           type: "Technology",
           details:
-            "Immerse yourself in gaming with the IPS LCD gaming monitor, delivering vibrant visuals and smooth gameplay.",
+            "Immerse yourself in gaming with the IPS LCD gaming monitor, delivering vibrant visuals and smooth gameplay. Seller: Manoj Iyer, Phone: +91 7766554433, Address: 78, T Nagar, Chennai, Tamil Nadu, India, Email: manoj.iyer@gmail.com",
         },
         14: {
+          id: 14,
           title: "S-Series Comfort Chair",
           type: "Clothes",
           details:
-            "Relax in comfort with the S-Series comfort chair, featuring ergonomic design and plush cushioning for long hours of sitting.",
+            "Relax in comfort with the S-Series comfort chair, featuring ergonomic design and plush cushioning for long hours of sitting. Seller: Shweta Kapoor, Phone: +91 6655443322, Address: 25, DLF Phase 3, Gurgaon, Haryana, India, Email: shweta.kapoor@gmail.com",
         },
         15: {
+          id: 15,
           title: "JBL Boombox 2",
           type: "New Arrival",
           details:
-            "Experience powerful sound with the JBL Boombox 2, featuring a rugged design and long battery life for all-day listening.",
+            "Experience powerful sound with the JBL Boombox 2, featuring a rugged design and long battery life for all-day listening. Seller: Akhil Sinha, Phone: +91 5544332211, Address: 14, Banjara Hills, Hyderabad, Telangana, India, Email: akhil.sinha@gmail.com",
         },
         16: {
-          title: "perfume",
+          id: 16,
+          title: "Perfume",
           type: "New Arrival",
           details:
-            "This perfume is a blend of oud, rose, and incense, creating a rich and luxurious scent that lasts all day.",
+            "This perfume is a blend of oud, rose, and incense, creating a rich and luxurious scent that lasts all day. Seller: Tanya Verma, Phone: +91 4433221100, Address: 98, Marine Drive, Mumbai, Maharashtra, India, Email: tanya.verma@gmail.com",
         },
         17: {
+          id: 17,
           title: "Phone",
           type: "New Arrival",
           details:
-            "This phone features a large display, powerful processor, and long battery life, perfect for work and play.",
+            "This phone features a large display, powerful processor, and long battery life, perfect for work and play. Seller: Vikram Sharma, Phone: +91 3322110099, Address: 54, Nehru Place, New Delhi, India, Email: vikram.sharma@gmail.com",
         },
         18: {
+          id: 18,
           title: "PlayStation 5",
           type: "New Arrival",
           details:
-            "The black and white version of the PS5 is coming out on sale.",
+            "The black and white version of the PS5 is coming out on sale. Seller: Siddharth Rao, Phone: +91 2211009988, Address: 22, Koramangala, Bangalore, Karnataka, India, Email: siddharth.rao@gmail.com",
         },
         19: {
+          id: 19,
           title: "Speaker",
           type: "New Arrival",
-          details: "Amazing sound quality with the Amazon wireless speaker.",
+          details:
+            "Amazing sound quality with the Amazon wireless speaker. Seller: Meera Singh, Phone: +91 1100998877, Address: 45, Park Street, Kolkata, West Bengal, India, Email: meera.singh@gmail.com",
         },
         20: {
+          id: 20,
           title: "Women's Collections",
           type: "New Arrival",
           details:
-            "Women's collections are featured that give you another vibe, and you can find the best collections here.",
+            "Women's collections are featured that give you another vibe, and you can find the best collections here. Seller: Poonam Bhatia, Phone: +91 9988771122, Address: 7, Laxmi Nagar, New Delhi, India, Email: poonam.bhatia@gmail.com",
         },
         21: {
+          id: 21,
           title: "Football Shoes",
-          type: "New Arrival",
-          details:
-            "The best football shoes for your game, and you can find the best collections here.",
-        },
+      type: "New Arrival",
+                details:
+                  "The best football shoes for your game, and you can find the best collections her, Seller: Anil Rajput, Phone: +91 8877661100, Address: 56, Sarojini Nagar, Lucknow, Uttar Pradesh, India,Email: anil.rajput@gmail.com"
+                },
       },
       categories: {
         general: "General",
